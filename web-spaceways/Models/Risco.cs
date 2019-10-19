@@ -8,6 +8,6 @@ namespace web_spaceways.Models
     public class Risco
     {
         public int IdRisco { get; set; }
-        public string TipoRisco { get; set; }
+        public string TipoRisco { get; set; }   
     }
 }

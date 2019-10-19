@@ -7,5 +7,7 @@ namespace web_spaceways.Models
 {
     public class LocaisVisitados
     {
+        public Roteiro Roteiro { get; set; }
+        public ObjetoCeleste ObjetoCeleste { get; set; }
     }
 }
