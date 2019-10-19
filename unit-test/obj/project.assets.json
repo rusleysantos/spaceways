@@ -1,6 +1,7 @@
 {
   "version": 3,
   "targets": {
+<<<<<<< HEAD
     ".NETCoreApp,Version=v2.2": {
       "Microsoft.NETCore.App/2.2.0": {
         "type": "package",
@@ -212,7 +213,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.App/2.2.0": {
-      "sha512": "QU8taCyeyePwatrj+h+750lMnsPCq3YPaGmsdtSHXPCjDyjto2KT7QDNVet0oRliX4PjaINpyg0Yzd9DnQ/Wkw==",
+      "sha512": "7z5l8Jp324S8bU8+yyWeYHXUFYvKyiI5lqS1dXgTzOx1H69Qbf6df12kCKlNX45LpMfCMd4U3M6p7Rl5Zk7SLA==",
       "type": "package",
       "path": "microsoft.netcore.app/2.2.0",
       "files": [
@@ -477,7 +478,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.2.0": {
-      "sha512": "qIrVLupwT2NYTrf7KM7Nh+mJr36V5MITVRjyGOByVVCwGmQgQmI/6bjZYQv+QdExi4Cm87eCKJX9FdT6nc00Xg==",
+      "sha512": "DrhaKInRKKvN6Ns2VNIlC7ZffLOp9THf8cO6X4fytPRJovJUbF49/zzx4WfgX9E44FMsw9hT8hrKiIqDSHvGvA==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.2.0",
       "files": [
@@ -491,7 +492,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostPolicy/2.2.0": {
-      "sha512": "5Xvh/3bDr6YAl6TKfeONvRDZ9QOmvVmzFzA0M6g8uubWdf5/o6qdVOqByFBT/fhjVb6okP0E5+v1oxh1Pk+c+w==",
+      "sha512": "FJie7IoPZFaPgNDxhZGmDBQP/Bs5vPdfca/G2Wf9gd6LIvMYkZcibtmJwB4tcf4KXkaOYfIOo4Cl9sEPMsSzkw==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostpolicy/2.2.0",
       "files": [
@@ -505,7 +506,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostResolver/2.2.0": {
-      "sha512": "Q3j3KC2ugqIVasf7pO4NRDEn7GysZX3ZH6fAHfbjrP8cYXY9cmHeFcbaniw36q8kFhsPt2EnRHzSsLBpbG6l2Q==",
+      "sha512": "spDm3AJYmebthDNhzY17YLPtvbc+Y1lCLVeiIH1uLJ/hZaM+40pBiPefFR8J1u66Ndkqi8ipR2tEbqPnYnjRhw==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostresolver/2.2.0",
       "files": [
@@ -519,7 +520,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.2.0": {
-      "sha512": "39+GVHdbm+cmoOjdvm+fhiMbddnuVyUlBdYS8Yhn5xsNaBoTXpgBsxQQlI2Sv9EjIP0F+itG6yrDaOM2OEGupQ==",
+      "sha512": "T/J+XZo+YheFTJh8/4uoeJDdz5qOmOMkjg6/VL8mHJ9AnP8+fmV/kcbxeXsob0irRNiChf+V0ig1MCRLp/+Kog==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.2.0",
       "files": [
@@ -679,31 +680,53 @@
         "netstandard.library.nuspec"
       ]
     }
+=======
+    ".NETCoreApp,Version=v2.2": {}
+>>>>>>> 48eb4bd4c307c599b5375e7b126de2c0359600a3
   },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v2.2": [
-      "Microsoft.NETCore.App >= 2.2.0"
-    ]
+    ".NETCoreApp,Version=v2.2": []
   },
   "packageFolders": {
-    "C:\\Users\\rusle\\.nuget\\packages\\": {},
+<<<<<<< HEAD
+    "C:\\Users\\lucas\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+=======
+    "C:\\Users\\ANDRÉ\\.nuget\\packages\\": {},
+>>>>>>> 48eb4bd4c307c599b5375e7b126de2c0359600a3
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\spaceways\\unit-test\\unit-test.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\aplicacao\\nava\\spaceways\\unit-test\\unit-test.csproj",
       "projectName": "unit-test",
-      "projectPath": "C:\\git\\spaceways\\unit-test\\unit-test.csproj",
-      "packagesPath": "C:\\Users\\rusle\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\spaceways\\unit-test\\obj\\",
+      "projectPath": "C:\\aplicacao\\nava\\spaceways\\unit-test\\unit-test.csproj",
+      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\aplicacao\\nava\\spaceways\\unit-test\\obj\\",
+=======
+      "projectUniqueName": "E:\\git\\spaceways\\unit-test\\unit-test.csproj",
+      "projectName": "unit-test",
+      "projectPath": "E:\\git\\spaceways\\unit-test\\unit-test.csproj",
+      "packagesPath": "C:\\Users\\ANDRÉ\\.nuget\\packages\\",
+      "outputPath": "E:\\git\\spaceways\\unit-test\\obj\\",
+>>>>>>> 48eb4bd4c307c599b5375e7b126de2c0359600a3
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rusle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+<<<<<<< HEAD
+        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
+        "C:\\Users\\ANDRÉ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 48eb4bd4c307c599b5375e7b126de2c0359600a3
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -725,19 +748,17 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
-        "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[2.2.0, )",
-            "autoReferenced": true
-          }
-        },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
