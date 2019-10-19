@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace web_spaceways.Models
 {
-    public class Viajem
+    public class Trip
     {
-        public int IdViajem { get; set; }
-        public DateTime DataSaida { get; set; }
-        public DateTime DataChegada { get; set; }
-        public Roteiro Roteiro { get; set; }
+        public int TripId { get; set; }
+        public DateTime ExitDate { get; set; }
+        public DateTime ArrivalDate { get; set; }
+        public Script Script { get; set; }
     }
 }

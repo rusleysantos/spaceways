@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace web_spaceways.Models
 {
-    public class Risco
+    public class VisitedPlaces
     {
-        public int IdRisco { get; set; }
-        public string TipoRisco { get; set; }   
+        public Script Script { get; set; }
+        public CelestialObject CelestialObject { get; set; }
     }
 }

@@ -5,14 +5,14 @@ using System.Threading.Tasks;
 
 namespace web_spaceways.Models
 {
-    public class Usuario
+    public class User
     {
-        public int IdUsuario { get; set; }
-        public string Nome { get; set; }
-        public DateTime DataNascimento { get; set; }
+        public int UserId { get; set; }
+        public string Name { get; set; }
+        public DateTime BirthDate { get; set; }
         public string Email { get; set; }
-        public string Sexo { get; set; }
-        public Perfil Perfil { get; set; }
+        public string Gender { get; set; }
+        public Profile Profile { get; set; }
 
     }
 }
