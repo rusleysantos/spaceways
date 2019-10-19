@@ -1,6 +1,7 @@
 {
   "version": 3,
   "targets": {
+<<<<<<< HEAD
     ".NETCoreApp,Version=v2.2": {
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
@@ -12065,36 +12066,53 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     }
+=======
+    ".NETCoreApp,Version=v2.2": {}
+>>>>>>> 48eb4bd4c307c599b5375e7b126de2c0359600a3
   },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v2.2": [
-      "Microsoft.AspNetCore.App >= 2.2.0",
-      "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
-    ]
+    ".NETCoreApp,Version=v2.2": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\lucas\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+=======
+    "C:\\Users\\ANDRÉ\\.nuget\\packages\\": {},
+>>>>>>> 48eb4bd4c307c599b5375e7b126de2c0359600a3
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\aplicacao\\nava\\spaceways\\web-spaceways\\web-spaceways.csproj",
       "projectName": "web-spaceways",
       "projectPath": "C:\\aplicacao\\nava\\spaceways\\web-spaceways\\web-spaceways.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
       "outputPath": "C:\\aplicacao\\nava\\spaceways\\web-spaceways\\obj\\",
+=======
+      "projectUniqueName": "E:\\git\\spaceways\\web-spaceways\\web-spaceways.csproj",
+      "projectName": "web-spaceways",
+      "projectPath": "E:\\git\\spaceways\\web-spaceways\\web-spaceways.csproj",
+      "packagesPath": "C:\\Users\\ANDRÉ\\.nuget\\packages\\",
+      "outputPath": "E:\\git\\spaceways\\web-spaceways\\obj\\",
+>>>>>>> 48eb4bd4c307c599b5375e7b126de2c0359600a3
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
+        "C:\\Users\\ANDRÉ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 48eb4bd4c307c599b5375e7b126de2c0359600a3
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -12116,25 +12134,6 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
-        "dependencies": {
-          "Microsoft.AspNetCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[2.2.0, )",
-            "autoReferenced": true
-          },
-          "Microsoft.AspNetCore.Razor.Design": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[2.2.0, )"
-          },
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[2.2.0, )",
-            "autoReferenced": true
-          }
-        },
         "imports": [
           "net461",
           "net462",
