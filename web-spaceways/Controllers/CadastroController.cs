@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -8,7 +8,7 @@ using web_spaceways.Models;
 
 namespace web_spaceways.Controllers
 {
-    public class HomeController : Controller
+    public class CadastroController : Controller
     {
         public IActionResult Index()
         {

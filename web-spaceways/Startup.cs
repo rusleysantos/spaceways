@@ -54,6 +54,21 @@ namespace web_spaceways
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+                routes.MapRoute(
+                    name: "outro",
+                    template: "{controller=Cadastro}/{action=Index}/{id?}");
+                    routes.MapRoute(
+                    name: "SignIn",
+                    template: "{controller=SignIn}/{action=Index}/{id?}");
+                    routes.MapRoute(
+                    name: "SignUp",
+                    template: "{controller=SignUp}/{action=Index}/{id?}");
+                    routes.MapRoute(
+                    name: "Form",
+                    template: "{controller=Form}/{action=Index}/{id?}");
+                    routes.MapRoute(
+                    name: "Simulation",
+                    template: "{controller=Simulation}/{action=Index}/{id?}");
             });
         }
     }
