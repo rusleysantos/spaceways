@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace web_spaceways.Models
 {
-    public class VisitedPlaces
+    public class VisitedPlace
     {
         public Script Script { get; set; }
         public CelestialObject CelestialObject { get; set; }
