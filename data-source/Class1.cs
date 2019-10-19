@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace data
+namespace data_source
 {
     public class Class1
     {

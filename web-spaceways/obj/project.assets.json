@@ -12080,11 +12080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rusle\\source\\repos\\spaceways\\web-spaceways\\web-spaceways.csproj",
+      "projectUniqueName": "C:\\git\\spaceways\\web-spaceways\\web-spaceways.csproj",
       "projectName": "web-spaceways",
-      "projectPath": "C:\\Users\\rusle\\source\\repos\\spaceways\\web-spaceways\\web-spaceways.csproj",
+      "projectPath": "C:\\git\\spaceways\\web-spaceways\\web-spaceways.csproj",
       "packagesPath": "C:\\Users\\rusle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rusle\\source\\repos\\spaceways\\web-spaceways\\obj\\",
+      "outputPath": "C:\\git\\spaceways\\web-spaceways\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,9 +1,0 @@
-C:\Users\rusle\source\repos\spaceways\data\bin\Debug\netcoreapp2.2\data.deps.json
-C:\Users\rusle\source\repos\spaceways\data\bin\Debug\netcoreapp2.2\data.dll
-C:\Users\rusle\source\repos\spaceways\data\bin\Debug\netcoreapp2.2\data.pdb
-C:\Users\rusle\source\repos\spaceways\data\obj\Debug\netcoreapp2.2\data.csprojAssemblyReference.cache
-C:\Users\rusle\source\repos\spaceways\data\obj\Debug\netcoreapp2.2\data.csproj.CoreCompileInputs.cache
-C:\Users\rusle\source\repos\spaceways\data\obj\Debug\netcoreapp2.2\data.AssemblyInfoInputs.cache
-C:\Users\rusle\source\repos\spaceways\data\obj\Debug\netcoreapp2.2\data.AssemblyInfo.cs
-C:\Users\rusle\source\repos\spaceways\data\obj\Debug\netcoreapp2.2\data.dll
-C:\Users\rusle\source\repos\spaceways\data\obj\Debug\netcoreapp2.2\data.pdb

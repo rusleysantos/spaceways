@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rusle\\source\\repos\\spaceways\\unit-test\\unit-test.csproj",
+      "projectUniqueName": "C:\\git\\spaceways\\unit-test\\unit-test.csproj",
       "projectName": "unit-test",
-      "projectPath": "C:\\Users\\rusle\\source\\repos\\spaceways\\unit-test\\unit-test.csproj",
+      "projectPath": "C:\\git\\spaceways\\unit-test\\unit-test.csproj",
       "packagesPath": "C:\\Users\\rusle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rusle\\source\\repos\\spaceways\\unit-test\\obj\\",
+      "outputPath": "C:\\git\\spaceways\\unit-test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
