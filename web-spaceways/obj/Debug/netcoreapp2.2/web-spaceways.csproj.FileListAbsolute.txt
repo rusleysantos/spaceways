@@ -56,3 +56,4 @@ C:\git\spaceways\web-spaceways\obj\Debug\netcoreapp2.2\web-spaceways.Views.pdb
 C:\git\spaceways\web-spaceways\obj\Debug\netcoreapp2.2\web-spaceways.dll
 C:\git\spaceways\web-spaceways\obj\Debug\netcoreapp2.2\web-spaceways.pdb
 C:\git\spaceways\web-spaceways\obj\Debug\netcoreapp2.2\web-spaceways.csproj.CopyComplete
+C:\git\spaceways\web-spaceways\obj\Debug\netcoreapp2.2\web-spaceways.csprojAssemblyReference.cache
