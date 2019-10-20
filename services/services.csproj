@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ManageUser\" />
+    <ProjectReference Include="..\data-source\data-source.csproj" />
   </ItemGroup>
 
 </Project>

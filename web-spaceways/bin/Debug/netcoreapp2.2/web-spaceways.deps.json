@@ -741,6 +741,9 @@
         }
       },
       "services/1.0.0": {
+        "dependencies": {
+          "data-source": "1.0.0"
+        },
         "runtime": {
           "services.dll": {}
         },

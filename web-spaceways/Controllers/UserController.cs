@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using services.ManageUser;
+using web_spaceways.Models;
 
 namespace web_spaceways.Controllers
 {
@@ -16,13 +18,19 @@ namespace web_spaceways.Controllers
         }
 
         // POST: User/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        [HttpGet]
+        public ActionResult Create(User user)
         {
+            User user1 = new User();
+            user1.BirthDate = DateTime.Now;
+            user1.Email = "teste@teste";
+            user1.Gender = "Male";
+            user1.Name = "Nome teste";
+         
             try
             {
-                // TODO: Add insert logic here
+                InsertUser insert = new InsertUser();
+                insert.Inserir(user1);
 
                 return RedirectToAction(nameof(User));
             }

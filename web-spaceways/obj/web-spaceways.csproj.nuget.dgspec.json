@@ -99,7 +99,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\git\\spaceways\\data-source\\data-source.csproj": {
+                "projectPath": "C:\\git\\spaceways\\data-source\\data-source.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
