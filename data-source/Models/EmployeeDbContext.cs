@@ -6,7 +6,7 @@ using web_spaceways.Models;
 
 namespace data_source.Models
 {
-    class EmployeeDbContext : DbContext
+    public class EmployeeDbContext : DbContext
     {
 
         public EmployeeDbContext(DbContextOptions options) : base(options)

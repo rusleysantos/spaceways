@@ -4,6 +4,66 @@
     "C:\\git\\spaceways\\web-spaceways\\web-spaceways.csproj": {}
   },
   "projects": {
+    "C:\\git\\spaceways\\data-source\\data-source.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\spaceways\\data-source\\data-source.csproj",
+        "projectName": "data-source",
+        "projectPath": "C:\\git\\spaceways\\data-source\\data-source.csproj",
+        "packagesPath": "C:\\Users\\rusle\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\spaceways\\data-source\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rusle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "C:\\git\\spaceways\\web-spaceways\\web-spaceways.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -29,7 +89,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\git\\spaceways\\data-source\\data-source.csproj": {
+                "projectPath": "C:\\git\\spaceways\\data-source\\data-source.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
