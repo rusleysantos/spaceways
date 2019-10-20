@@ -15,3 +15,4 @@ C:\git\spaceways\unit-test\obj\Debug\netcoreapp2.2\unit-test.AssemblyInfoInputs.
 C:\git\spaceways\unit-test\obj\Debug\netcoreapp2.2\unit-test.AssemblyInfo.cs
 C:\git\spaceways\unit-test\obj\Debug\netcoreapp2.2\unit-test.dll
 C:\git\spaceways\unit-test\obj\Debug\netcoreapp2.2\unit-test.pdb
+C:\git\spaceways\unit-test\obj\Debug\netcoreapp2.2\unit-test.csprojAssemblyReference.cache
