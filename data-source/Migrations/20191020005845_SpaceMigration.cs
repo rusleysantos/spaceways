@@ -111,6 +111,27 @@ namespace data_source.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Travels",
+                columns: table => new
+                {
+                    TripId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    ExitDate = table.Column<DateTime>(nullable: false),
+                    ArrivalDate = table.Column<DateTime>(nullable: false),
+                    ScriptId = table.Column<int>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Travels", x => x.TripId);
+                    table.ForeignKey(
+                        name: "FK_Travels_Scripts_ScriptId",
+                        column: x => x.ScriptId,
+                        principalTable: "Scripts",
+                        principalColumn: "ScriptId",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "VisitedPlaces",
                 columns: table => new
                 {
@@ -147,6 +168,11 @@ namespace data_source.Migrations
                 column: "ProfileId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Travels_ScriptId",
+                table: "Travels",
+                column: "ScriptId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Users_ProfileId",
                 table: "Users",
                 column: "ProfileId");
@@ -164,6 +190,9 @@ namespace data_source.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Travels");
+
             migrationBuilder.DropTable(
                 name: "Users");
 

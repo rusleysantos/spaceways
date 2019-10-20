@@ -105,6 +105,25 @@ namespace data_source.Migrations
                     b.ToTable("Scripts");
                 });
 
+            modelBuilder.Entity("web_spaceways.Models.Trip", b =>
+                {
+                    b.Property<int>("TripId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("ArrivalDate");
+
+                    b.Property<DateTime>("ExitDate");
+
+                    b.Property<int?>("ScriptId");
+
+                    b.HasKey("TripId");
+
+                    b.HasIndex("ScriptId");
+
+                    b.ToTable("Travels");
+                });
+
             modelBuilder.Entity("web_spaceways.Models.User", b =>
                 {
                     b.Property<int>("UserId")
@@ -159,6 +178,13 @@ namespace data_source.Migrations
                     b.HasOne("web_spaceways.Models.Profile", "Profile")
                         .WithMany()
                         .HasForeignKey("ProfileId");
+                });
+
+            modelBuilder.Entity("web_spaceways.Models.Trip", b =>
+                {
+                    b.HasOne("web_spaceways.Models.Script", "Script")
+                        .WithMany()
+                        .HasForeignKey("ScriptId");
                 });
 
             modelBuilder.Entity("web_spaceways.Models.User", b =>

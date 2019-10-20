@@ -17,7 +17,9 @@ namespace data_source.Models
         DbSet<Profile> Profiles { get; set; }
         DbSet<Risk> Risks { get; set; }
         DbSet<Script> Scripts { get; set; }
+        DbSet<Trip> Travels { get; set; }
         DbSet<User> Users { get; set; }
         DbSet<VisitedPlace> VisitedPlaces { get; set; }
+
     }
 }
