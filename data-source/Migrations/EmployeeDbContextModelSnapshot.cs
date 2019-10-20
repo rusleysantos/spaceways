@@ -19,6 +19,27 @@ namespace data_source.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("data_source.Models.Question", b =>
+                {
+                    b.Property<int>("QuestionId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Option1");
+
+                    b.Property<string>("Option2");
+
+                    b.Property<string>("Option3");
+
+                    b.Property<string>("Option4");
+
+                    b.Property<string>("Option5");
+
+                    b.HasKey("QuestionId");
+
+                    b.ToTable("Questions");
+                });
+
             modelBuilder.Entity("web_spaceways.Models.CelestialObject", b =>
                 {
                     b.Property<int>("ObjectId")

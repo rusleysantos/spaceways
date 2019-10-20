@@ -15,6 +15,7 @@ namespace data_source.Models
 
         DbSet<CelestialObject> CelestialObjects { get; set; }
         DbSet<Profile> Profiles { get; set; }
+        DbSet<Question> Questions { get; set; }
         DbSet<Risk> Risks { get; set; }
         DbSet<Script> Scripts { get; set; }
         DbSet<Trip> Travels { get; set; }
