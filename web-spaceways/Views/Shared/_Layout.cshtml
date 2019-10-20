@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - web_spaceways</title>
+    <link rel="icon" href="img/spaceApps.ico" />
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -21,7 +22,8 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">web_spaceways</a>
+                
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="img/tns-ship-small.png" class="ml-0 mr-3" style="max-width: 50px;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -55,11 +57,108 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2019 - web_spaceways - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark stylish-color-dark bgFooterCustom text-light pt-4">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-4 mr-auto">
+
+                    <!-- Content -->
+                    <h1>Neptune Rebels</h1>
+                    <p>Sleeping doesn't get any XP.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-1 mx-auto">
+
+                    <!-- Links -->
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Home</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-1 mx-auto">
+
+                    <!-- Links -->
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Sign In</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-1 mx-auto">
+
+                    <!-- Links -->
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Sign Up</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-1 mx-auto">
+
+                    <!-- Links -->
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Form</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-1 mx-auto">
+
+                    <!-- Links -->
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Simulation</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+            </div>
+            <!-- Grid row -->
+
     </footer>
+    <!-- Footer -->
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
