@@ -35,8 +35,19 @@ namespace web_spaceways
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            
+
             services.AddDbContext<EmployeeDbContext>(item => item.UseSqlServer(Configuration.GetConnectionString("myconn")));
+
+            services.AddEntityFrameworkSqlServer()
+            .AddDbContext<EmployeeDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("myconn"), sqlServerOptions =>
+            {
+                sqlServerOptions.UseRowNumberForPaging();
+            }));
+
+            services.
+            AddScoped(p => new EmployeeDbContext(p.GetService<DbContextOptions<EmployeeDbContext>>()));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
