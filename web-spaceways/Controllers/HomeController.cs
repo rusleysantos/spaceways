@@ -15,10 +15,7 @@ namespace web_spaceways.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+    
 
     }
 }
